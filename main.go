@@ -20,6 +20,16 @@ func main() {
 //    6. go test - runs any tests associated with the current project
 
 // 2. What does 'package main' mean?
+// -  Package == Project == Workspace
+// -  A package is a collection of common source code files
+//    A package can have many related files inside of it each file ending with a file extension of go
+//    The only requirement for every file inside of a package is at the very first line of each file must declare the package that it belongs to. e.g. package main
+// -  There are 2 different types of packages inside the world of Go
+//    1. Executable - generates a file that we can run
+//    1.1 The word main is specifically used to make an executable type package
+//    2. Reusable - code used as 'helpers'. Good place to put reusable logic
+// -  In summary, whenever we see the word package main that means we are making an executable package. Any other name whatsoever means we're making a reusable or dependency type package
+//    Anytime we make an executable package, it must always have a function inside of it called Main as well
 
 // 3. What does 'import "fmt"' means?
 
