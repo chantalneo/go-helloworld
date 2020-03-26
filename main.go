@@ -54,3 +54,9 @@ func main() {
 //    At the very top we're always going to place our [package declaration]. In this case package main
 //    Then right underneath that will list out all the other packages that we might need to import into this file. In this case fmt package
 //    Then get down to the body of the file which is where we add in a bunch of logic that actually kind of does something. So it will be a collection of different functions, variable declarations and all that kind of other good stuff as well
+
+// Quiz 1: Test Your Knowledge: Packages
+// 1. What is the purpose of a package in Go? To group together code with a similar purpose
+// 2. What is the special name we use for a package to tell Go that we want it to be turned into a file that can be executed? main
+// 3. The one requirement of packages named "main" is that we... Define a function named "main", which is ran automatically when the program runs
+// 4. Why do we use "import" statements? To give our package access to code written in another package
