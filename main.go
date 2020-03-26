@@ -41,5 +41,16 @@ func main() {
 // -  Checkout documentation around all of the standard library packages by visiting: https://golang.org/pkg/
 
 // 4. What's that 'func' thing?
+// -  func is short for function
+// -  Functions inside of go function just like functions in other programming languages as well
+// -  func tells go we're about to declare a function
+// -  The syntax is:
+//    func <sets the name of the function> (<List of arguments to pass the function>) {
+//       <Function body. Calling the function runs this code>
+//    }
 
 // 5. How is the main.go file organized?
+// -  In practice it always ends up being the exact same pattern:
+//    At the very top we're always going to place our [package declaration]. In this case package main
+//    Then right underneath that will list out all the other packages that we might need to import into this file. In this case fmt package
+//    Then get down to the body of the file which is where we add in a bunch of logic that actually kind of does something. So it will be a collection of different functions, variable declarations and all that kind of other good stuff as well
