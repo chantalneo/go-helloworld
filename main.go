@@ -32,6 +32,13 @@ func main() {
 //    Anytime we make an executable package, it must always have a function inside of it called Main as well
 
 // 3. What does 'import "fmt"' means?
+// -  The import statement is used to give our package the access to some code that is written inside of another package
+// -  Therefore, by saying import "fmt" specifically means give my package main access to all of the code and all the functionality that's contained inside of this other package called fmt
+// -  fmt is the name of a standard library package that is included with the Go programming language by default.
+//    fmt itself is a kind of abbreviated form of the word format
+//    The fmt library is used to print out a lot of different information specifically to the terminal just to give you a better sense of debugging and stuff like that
+// -  Besides importing a standard library like e.g. debug, fmt, math, encoding, crypto, io and etc. We can also import packages that have been authored by other engineers as well
+// -  Checkout documentation around all of the standard library packages by visiting: https://golang.org/pkg/
 
 // 4. What's that 'func' thing?
 
